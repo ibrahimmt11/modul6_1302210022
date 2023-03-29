@@ -17,6 +17,11 @@ namespace modul6_1302210022
             return playCount;
         }
 
+        public string getTitle()
+        {
+            return title;
+        }
+
         public SayaTubeVideo(string title)
         {
             this.title = title;
@@ -24,6 +29,10 @@ namespace modul6_1302210022
             this.id = random.Next(10000, 99999);
             this.playCount = 0;
             
+        }
+
+        public SayaTubeVideo()
+        {
         }
 
         public void IncreasePlayCount(int playCount)

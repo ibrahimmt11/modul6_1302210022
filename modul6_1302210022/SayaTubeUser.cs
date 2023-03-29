@@ -40,7 +40,7 @@ namespace modul6_1302210022
             Console.WriteLine("User: " + Username);
             for(int i = 0; i <uploadedVideos.Count; i++)
             {
-                Console.WriteLine("Video " + i + 1 + "Judu: " + uploadedVideos[i]);
+                Console.WriteLine("Video " + i + 1 + "Judul: " + uploadedVideos[i].getTitle());
             }
         }
     }
